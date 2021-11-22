@@ -1,0 +1,234 @@
+html,body{
+	box-sizing: border-box;
+	font-family: nimbus-sans-extended,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#infos{
+	display: flex;
+	justify-content: space-between;
+	width: auto;
+}
+
+#lienabout{
+	padding-right:20px; 
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+a{
+	text-decoration:none;
+	color: black;
+}
+
+#head{
+	height: 100vh;
+}
+
+#pres{
+	text-align: center;
+	margin-top: 35vh;
+}
+
+#head h1{
+	margin: 0px;
+	font-size: 3.3em;
+	letter-spacing: 3px;
+}
+
+#head p{
+	margin: 0px;
+}
+
+h4{
+	font-family: nimbus-sans-extended,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	margin: 0px;
+}
+
+h1{
+	font-size: 2em;
+	letter-spacing: 2px;
+}
+
+#about{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 100vh;
+}
+
+#texteabout{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+
+#comps{
+	width: 60vw;
+}
+
+#works{
+	background-image: url("img/fondspace.png");
+	background-size: 100vw;
+	margin: 0px;
+}
+
+@keyframes rotating{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.rotate{
+  animation: rotating 50s linear infinite;
+}
+
+.rotate2{
+  animation: rotating 5s linear infinite;
+}
+
+.ceinture{
+	width: 50vw;
+	position: absolute;
+	margin: auto;
+}
+
+.planete{
+	width: 30vw;
+	height: auto;
+}
+
+.projet{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 150vh;
+}
+
+.projet a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.boiteplanete{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.rocket{
+	position: absolute;
+	width:25vw;
+}
+
+p{
+	font-size: 1.2em;
+	margin-left: 20px;
+}
+
+#texteabout img{
+	width: 50%;
+	margin:20px auto ;
+}
+
+#clemflat{
+	width: 30%;
+}
+
+#contact{
+	text-align: center;
+	padding: 50px;
+}
+
+a:hover{
+	color: #990A2F;
+}
+
+.head{
+	height: 30vh;
+}
+
+.head h1{
+	margin: 0px;
+	font-size: 3.3em;
+	letter-spacing: 0.01px;
+}
+
+.present{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contentproject{
+	padding: 100px;
+	background-image: url("img/fondspacedarker.png");
+	background-size: 100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+
+.intro{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.intro img{
+	border-radius: 10px;
+	width: 45%;
+}
+
+.textintro{
+	width: 30vw;
+	font-size:1.1em;
+}
+
+#medicroquis{
+	width: 100%;
+	border-radius: 10px;
+	margin: 100px;
+}
+
+#explic{
+	display: flex;
+	justify-content: center;
+}
+
+#imgexplic img{
+	width: 35vw;
+	border-radius: 10px;
+}
+
+#imgexplic{
+	width: 40%;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#textexplic{
+	width: 30vw;
+}
+
+
+
+
