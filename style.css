@@ -71,7 +71,6 @@ h1{
 	width: 40%;
 	display: flex;
 	flex-direction: column;
-	text-align: justify;
 }
 
 #comps{
@@ -233,7 +232,7 @@ a:hover{
 
 
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
   
   .planete{
 	width: 60vw;
@@ -242,6 +241,13 @@ a:hover{
 	#clemflat{
 		width: 70%;
 	}
+
+	#texteabout{
+	width: 80%;
+	text-align: left;
+	}
+
+
 
 }
 
