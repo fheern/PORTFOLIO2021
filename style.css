@@ -232,3 +232,22 @@ a:hover{
 
 
 
+
+@media screen and (max-width: 640px) {
+  
+  .planete{
+	width: 60vw;
+	}
+
+	#clemflat{
+		width: 70%;
+	}
+
+}
+
+
+
+
+
+
+
