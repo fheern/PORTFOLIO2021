@@ -232,8 +232,8 @@ a:hover{
 
 
 
-@media (max-width: 700px) {
-  
+@media screen and (max-width: 680px) {
+
   .planete{
 	width: 60vw;
 	}
