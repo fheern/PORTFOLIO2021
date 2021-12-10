@@ -20,6 +20,13 @@ $("#works a").mouseleave(function(){
 	
 });
 
+$(".postinstaplus").mouseenter(function(){
+  $(this).attr("src","img/bde/POST-SOIREE-OCTOBREROSE.jpg");
+});
+$(".postinstaplus").mouseleave(function(){
+  $(this).attr("src","img/bde/POST-OCTOBREROSE.jpg");
+});
+
 });
 
 

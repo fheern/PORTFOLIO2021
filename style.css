@@ -224,12 +224,12 @@ a:hover{
 	justify-content: center;
 }
 
-#imgexplic img{
-	width: 25vw;
+.imgexplic img{
+	width: 30vw;
 	border-radius: 10px;
 }
 
-#imgexplic{
+.imgexplic{
 	width: 40%;
 	margin-left: 100px;
 	display: flex;
@@ -237,11 +237,39 @@ a:hover{
 	justify-content: space-around;
 }
 
-#textexplic{
+.textexplic{
+	width: 40vw;
+}
+
+#maquettemediring{
+	width: 65%;
+	margin: 30px;
+}
+
+.postinsta{
+	border-radius: 10px;
+	width: 35vw;
+	height: 35vw;
+}
+
+.postinstaplus{
+	border-radius: 10px;
+	width: 35vw;
+	height: 35vw;
+}
+
+.storyinsta{
+	border-radius: 10px;
 	width: 30vw;
 }
 
-
+.BDEshow{
+	display: flex;
+	width: 75vw;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
 
 
