@@ -260,16 +260,10 @@ a:hover{
 	margin: 30px;
 }
 
-#contentbde{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-}
-
 .bdePres{
 	text-align: center;
-	font-size: 0.6em;
-	width: 40vw;
+	font-size: 1em;
+	width: 70vw;
 	margin: 10vh 0;
 }
 
@@ -399,7 +393,7 @@ a:hover{
 	}
 
 	.contentproject h1{
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 
 	.contentproject p{
