@@ -260,31 +260,42 @@ a:hover{
 	margin: 30px;
 }
 
-.postinsta{
-	border-radius: 10px;
-	width: 35vw;
-	height: 35vw;
+#contentbde{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.postinstaplus{
-	border-radius: 10px;
-	width: 35vw;
-	height: 35vw;
-}
-
-.storyinsta{
-	border-radius: 10px;
-	width: 30vw;
+.bdePres{
+	text-align: center;
+	font-size: 0.6em;
+	width: 40vw;
+	margin: 10vh 0;
 }
 
 .BDEshow{
 	display: flex;
-	width: 75vw;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 }
 
+.postinsta{
+	border-radius: 10px;
+	width: 35%;
+	height: 35%;
+}
+
+.postinstaplus{
+	border-radius: 10px;
+	width: 35%;
+	height: 35%;
+}
+
+.storyinsta{
+	border-radius: 10px;
+	width: 30%;
+}
 
 
 
@@ -424,7 +435,6 @@ a:hover{
 	}
 
 }
-
 
 
 
