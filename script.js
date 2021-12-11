@@ -2,6 +2,36 @@ $(document).ready(function(){
 
 console.log("ready!");
 
+
+
+// $(window).scroll(function(){
+// 	if ($(window).scroll(function(){
+// 		var scroll = $(window).scrollTop();
+//   	if (scroll >= $(window).height()){
+//   		console.log("SCROLL WINDOW")
+//     	$(".scrolltop").show();
+//  		}
+//  	}));
+// });
+
+
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 800){
+    	console.log("scroll");
+      $(".scrolltop img").css({"opacity":"1"},100);
+    } else {
+      $(".scrolltop img").css({"opacity":"0"},100);
+    }
+  });
+
+  $(".scrolltop").click(function() {
+    $('html, body').scrollTop(0);
+  });
+
+
+
+
 $("#works a").mouseenter(function(){
 	console.log("enter planete");
 	$(".planete").css({"position":"absolute"})
@@ -19,6 +49,8 @@ $("#works a").mouseleave(function(){
 	.animate({"width":"-=28vw"},200)
 	
 });
+
+
 
 $(".postinstaplus").mouseenter(function(){
   $(this).attr("src","img/bde/POST-SOIREE-OCTOBREROSE.jpg");
