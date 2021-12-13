@@ -288,10 +288,19 @@ a:hover{
 }
 
 .affichageclassique{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
 	width: 80vw;
 }
 
-.affichageclassique p,.affichageclassique h1{
+.affichageclassique p{
+	text-align: center;
+	width: 70%;
+}
+
+.affichageclassique h1{
 	text-align: center;
 }
 
@@ -387,7 +396,7 @@ a:hover{
 	}
 
 	.head h1{
-		font-size: 1.8em;
+		font-size: 1.5em;
 	}
 
 	.head h4{
