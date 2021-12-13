@@ -287,6 +287,18 @@ a:hover{
 	width: 30%;
 }
 
+.affichageclassique{
+	width: 80vw;
+}
+
+.affichageclassique p,.affichageclassique h1{
+	text-align: center;
+}
+
+.affichageclassique img{
+	width: 100%;
+	border-radius: 5px;
+}
 
 
 
