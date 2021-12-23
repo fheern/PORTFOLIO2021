@@ -157,24 +157,23 @@ p{
 	margin:20px auto ;
 }
 
-#clemflat{
-	width: 30%;
-}
-
 #competences{
-	margin: 100px auto;
+	margin-top: 5vh;
 	display: flex;
-	justify-content: space-around;
-	width: 60vw;
+	justify-content: space-between;
+	width: 80vw;
 }
 
 #competences img{
+	width: 35%;
+}
+
+#clemflat{
 	width: 30%;
 }
 
 #contact{
 	text-align: center;
-	padding: 50px;
 }
 
 a:hover{
