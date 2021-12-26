@@ -107,6 +107,10 @@ h1{
   animation: rotating 5s linear infinite;
 }
 
+.rotate3{
+  animation: rotating 20s linear infinite;
+}
+
 .ceinture{
 	width: 50vw;
 	position: absolute;
@@ -123,6 +127,11 @@ h1{
 	align-items: center;
 	justify-content: center;
 	height: 150vh;
+}
+
+.descprojet{
+	position: absolute;
+	width:30vw;
 }
 
 .projet a{

@@ -35,18 +35,18 @@ console.log("ready!");
 $("#works a").mouseenter(function(){
 	console.log("enter planete");
 	$(".planete").css({"position":"absolute"})
-	.animate({"width":"+=5vw"},200)
+	.animate({"width":"+=3vw"},200)
 	$(".ceinture").animate({"width":"+=7vw"},200)
-	$(".rocket").css({"position":"absolute"})
-	.animate({"width":"+=28vw"},200);
+	$(".rocket").animate({"width":"+=23vw"},200);
+	$(".descprojet").animate({"width":"+=40vw"},200);
 });
 
 $("#works a").mouseleave(function(){
 	console.log("leave planete");
-	$(".planete").animate({"width":"-=5vw"},200)
+	$(".planete").animate({"width":"-=3vw"},200)
 	$(".ceinture").animate({"width":"-=7vw"},200)
-		$(".rocket").css({"position":"absolute"})
-	.animate({"width":"-=28vw"},200)
+		$(".rocket").animate({"width":"-=23vw"},200)
+		$(".descprojet").animate({"width":"-=40vw"},200);
 	
 });
 
