@@ -112,13 +112,13 @@ h1{
 }
 
 .ceinture{
-	width: 50vw;
+	width: 45vw;
 	position: absolute;
 	margin: auto;
 }
 
 .planete{
-	width: 30vw;
+	width: 25vw;
 	height: auto;
 }
 
@@ -131,7 +131,7 @@ h1{
 
 .descprojet{
 	position: absolute;
-	width:30vw;
+	width:25vw;
 }
 
 .projet a{
@@ -153,7 +153,7 @@ h1{
 
 .rocket{
 	position: absolute;
-	width:25vw;
+	width:23vw;
 }
 
 p{
@@ -183,6 +183,7 @@ p{
 
 #contact{
 	text-align: center;
+	margin: 100px 0;
 }
 
 a:hover{

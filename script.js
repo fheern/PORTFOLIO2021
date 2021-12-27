@@ -37,16 +37,16 @@ $("#works a").mouseenter(function(){
 	$(".planete").css({"position":"absolute"})
 	.animate({"width":"+=3vw"},200)
 	$(".ceinture").animate({"width":"+=7vw"},200)
-	$(".rocket").animate({"width":"+=23vw"},200);
-	$(".descprojet").animate({"width":"+=40vw"},200);
+	$(".rocket").animate({"width":"+=20vw"},200);
+	$(".descprojet").animate({"width":"+=37vw"},200);
 });
 
 $("#works a").mouseleave(function(){
 	console.log("leave planete");
 	$(".planete").animate({"width":"-=3vw"},200)
 	$(".ceinture").animate({"width":"-=7vw"},200)
-		$(".rocket").animate({"width":"-=23vw"},200)
-		$(".descprojet").animate({"width":"-=40vw"},200);
+		$(".rocket").animate({"width":"-=20vw"},200)
+		$(".descprojet").animate({"width":"-=37vw"},200);
 	
 });
 
